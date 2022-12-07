@@ -1,0 +1,25 @@
+<footer class="container-full" style="background-image: url('/assets/fondocontacto.png'); background-position: center center; background-attachment: fixed; background-size: cover;">
+    <div class="row" style="padding: 20px;"> 
+      <div class="col-lg-8">
+      <form [formGroup]="datos">
+        <div class="row">
+          <div class="col-lg-4">
+            <h4 style="color: white;">ENVIENOS SU SOLICITUD</h4>
+            <input type="text" class="form-control" placeholder="INGRESA TU NOMBRE O EMPRESA" name="nomempresa" style="margin: 10px;">
+            <input type="email" placeholder="Correo" class="form-control" name="correo" style="margin: 10px;">
+            <input type="text" placeholder="Numero" style="margin: 10px;" class="form-control" name="numero">
+            <textarea class="form-control" placeholder="Mensaje" cols="40" rows="4" name="mensaje" style="margin: 10px;"></textarea>
+            <button class="btn btn-primary btn-position-right" (click)="enviocorreo()">enviar</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="col-lg-4" style="color: white;">
+      <h1>Ubicacion</h1>
+      <h3>chañarcillo #1120<br>Maipu. Santiago</h3>
+      <h1>Contacto</h1>
+      <h3>+569 5209 2557<br>+569 2374 8961</h3>
+      <h3>contacto@fmecanicas.cl</h3>
+    </div>
+  </div>
+  </footer>

@@ -1,0 +1,59 @@
+#btnver{
+    position: static;
+    top: 30%;
+    left: 1%;
+}
+
+#txtver{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    color: white;
+    font-size: xx-large;
+    font-size: 2vw;
+}
+
+#separacion{
+    padding: 30px;
+    background-image: url('/assets/fondodecapacidades.png');
+}
+
+#correccion{
+    padding-bottom: 20px;
+}
+
+#otraseccion{
+    margin-bottom: 0px;
+    padding-bottom: 400px;
+    text-align: right;
+    background-image: url('/assets/Banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+#fondos {
+    background-image: url('/assets/fondoservicios.jpg');
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#textoseccion{
+    text-align: left;
+    padding: 30px;
+}
+
+#textoseccion1{
+    color: white;
+    padding-left: 230px;
+    font-size: xx-large;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 2vw;
+}
+#textoseccion2{
+    padding-left: 230px;
+    font-size: xx-small;
+    color: white;
+    font-size: 2vw;
+}

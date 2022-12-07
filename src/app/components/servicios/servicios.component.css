@@ -1,0 +1,31 @@
+#btnver{
+    position: static;
+    top: 30%;
+    left: 1%;
+}
+
+#txtver{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    color: white;
+    font-size: xx-large;
+    font-size: 2vw;
+}
+
+#separacion{
+    padding: 30px;
+}
+
+#correccion{
+    padding-bottom: 20px;
+}
+
+#otraseccion{
+    margin-top: 10px;
+}
+
+#fondos{
+    background-color: white;
+    padding-top: 20px;
+}

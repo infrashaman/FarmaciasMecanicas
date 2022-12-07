@@ -1,0 +1,11 @@
+#fondo {
+    background-attachment: local;
+    padding-top: 0.5%;
+    padding-bottom: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vw;
+    background-color: #355ca1;
+    background-position: center;
+    word-wrap: break-word;
+}
