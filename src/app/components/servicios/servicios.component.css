@@ -26,6 +26,11 @@
 }
 
 #fondos{
-    background-color: white;
-    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
 }
+
+body{
+    background-image: url('/assets/fondoservicios.jpg');
+}
+
