@@ -9,8 +9,8 @@
     top: 30%;
     left: 15%;
     color: white;
-    font-size: xx-large;
     font-size: 2vw;
+    font-family: robotos;
 }
 
 #separacion{
@@ -50,10 +50,12 @@
     margin-bottom: 0px;
     padding-bottom: 0px;
     font-size: 2vw;
+    font-family: Roboto;
 }
 #textoseccion2{
     padding-left: 230px;
     font-size: xx-small;
     color: white;
     font-size: 2vw;
+    font-family: Roboto;
 }

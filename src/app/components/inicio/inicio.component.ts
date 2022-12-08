@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -8,6 +9,13 @@ import { Component } from '@angular/core';
 })
 export class InicioComponent {
 
-  constructor() { 
+  constructor(private router: Router) { 
+  }
+
+  navegar(){
+    this.router.navigate(['/contacto'])
+  }
+  navegar2(){
+    this.router.navigate(['/nosotros'])
   }
 }

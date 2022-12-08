@@ -8,12 +8,12 @@
 </head>
 <body class="container-full" style="background-color: #355ca1; height: 100%;">
   <!-- Tarjeta -->
-    <div class="card mb-3">
+    <div class="card mb-3" style="font-family: Roboto">
         <img class="card-img-top" src="./assets/fondo_inicio.jpg" style="width: 99vw; height: 50vw;">
         <div class="card-img-overlay" id="txtver">
-            <h1 class="card-title" style="font-family: Roboto;"><b>Bienvenidos</b></h1>
-            <small class="card-text text-control">Hace mas de dos decadas Fabricaciones Mecanicas Ltda. ingresa <br>a la industria Metalmecanica con una propuesta innovadora para <br>dar solucion a los mas diversos requerimientos del mercado</small>
-            <button class="btn btn-success btn-sm" style="margin-left: 20px;">VER MAS</button>
+            <h1 class="card-title" style="font-family: sans-serif; font-size: 100px;">BIENVENIDOS</h1>
+            <p class="card-text text-control" style="font-size: smaller; margin-left: 10px;">Hace mas de dos decadas Fabricaciones Mecanicas Ltda. ingresa <br>a la industria Metalmecanica con una propuesta innovadora para <br>dar solucion a los mas diversos requerimientos del mercado</p>
+            <button class="btn btn-success btn-sm" style="margin-left: 20px;" (click)="navegar2()">VER MAS</button>
             <img src="/assets/eslogan.png" class="img-fluid" style="padding-left: 40px;">
         </div>
     </div>
@@ -26,7 +26,7 @@
             <p style="background-color: #6a9e5e; margin-top: 0px; margin-left: -50px; height: 30px; width: 200px;">''</p>
             <div class="col-lg-12">
               <p class="card-text text-control" id="textoseccion2">En fabricaciones mecanicas Ltda. sus proyectos e ideas son de<br>caracter confidencial, si usted asi lo requiere. Resguardamos la<br>seguridad intelectual,comercial y formal de nuestros clientes.
-                <button class="btn btn-success" style="position: relative; margin-top: 0px;">cotizar</button>
+                <button class="btn btn-success" style="position: relative; margin-top: 0px;" (click)="navegar()">cotizar</button>
               </p>
             </div>
           </div>
@@ -35,7 +35,7 @@
     <!-- Servicios -->
     <div class="container-fluid" id="fondos">
       <h1 style="color: black; text-align: center;">NUESTROS SERVICIOS</h1>
-      <h5 style="margin-left: 100px; ">Nuestras capacidades nos permiten otorgar los mas diversos servicios de fabricacion, que va desde la fabricacion<br>de sofisticados gabinetes de empaquetamiento electronico a las mas robustas y complejas estructuras orientadas<br>a la industria de la mineria</h5>
+      <h5 style="margin-left: 100px; font-family: Roboto;">Nuestras capacidades nos permiten otorgar los mas diversos servicios de fabricacion, que va desde la fabricacion<br>de sofisticados gabinetes de empaquetamiento electronico a las mas robustas y complejas estructuras orientadas<br>a la industria de la mineria</h5>
         <div class="row">
           <div class="col-lg-1"><p style="background-color: #6a9e5e; width: 30px; margin-left: 60px; margin-top: -80px;"><br></p></div>
         <div class="card col-lg-3" style="background-color: #6a9e5e ; color: white;" id="correccion">
@@ -66,10 +66,10 @@
     <section id="separacion" style="background-color: #6a9e5e;">
       <div class="row">
         <div class="col-lg-5">
-      <h1 style="color: white; background-color: #355ca1; margin-left:-30px; ">NUESTRAS CAPACIDADES</h1>
+      <h1 style="color: white; background-color: #355ca1; margin-left:-32px; padding-left: 30px; ">NUESTRAS CAPACIDADES</h1>
     </div>
     </div>
-    <h5 style="color: white;">Contamos con una importante cantidad de modernas maquinas y herramientas, por lo tanto, nuestra relacion<br>tamaño/equipamiento nos hace una empresa de alta tecnologia en funcion a las necesidades del mercado</h5>
+    <h5 style="color: white; font-family: Roboto;">Contamos con una importante cantidad de modernas maquinas y herramientas, por lo tanto, nuestra relacion<br>tamaño/equipamiento nos hace una empresa de alta tecnologia en funcion a las necesidades del mercado</h5>
       <div class="row" style="margin-left: 30px;">
         <div class="col-lg-1"></div>
       <div class="card col-lg-3">
@@ -92,14 +92,12 @@
             <img src="./assets/capacidades1.jpg" class="card-img-top">
             <h5 class="card-title" style="color: #355ca1;">GUILLOTINA SHEM</h5>
             <p class="card-text">Son reconocidos por estar bien constituidos,<br>ser precisos y rentables, satisfaciendo la<br>demanda del mercado de gabricacion pesada</p>
-            <p style="background-color: #6a9e5e; margin-top: 43px; margin-left: -50px;"><br></p>
+            <p style="background-color: #6a9e5e; margin-top: 37px; margin-left: -50px;"><br></p>
           </div>
         </div>
         </div>
       </section>
         <!-- Productos -->
         <app-productos></app-productos>
-        <!-- Contacto -->
-        <app-contacto></app-contacto>
 </body>
 </html>
