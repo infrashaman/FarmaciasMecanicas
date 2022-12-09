@@ -10,7 +10,7 @@
     left: 15%;
     color: white;
     font-size: 2vw;
-    font-family: robotos;
+    margin-top: 20px;
 }
 
 #separacion{
@@ -50,12 +50,21 @@
     margin-bottom: 0px;
     padding-bottom: 0px;
     font-size: 2vw;
-    font-family: Roboto;
+    font-family: 'Orbitron', sans-serif;
 }
 #textoseccion2{
     padding-left: 230px;
     font-size: xx-small;
     color: white;
     font-size: 2vw;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
+}
+
+#txtver1{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 78px;
+}
+
+#txtver2{
+    font-family: 'Roboto', sans-serif;
 }
