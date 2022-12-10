@@ -18,7 +18,8 @@
 }
 
 #correccion{
-    padding-bottom: 20px;
+    padding-bottom: 160px;
+    margin: 20px;
 }
 
 #otraseccion{
@@ -34,7 +35,7 @@
 #fondos {
     background-image: url('/assets/fondoservicios.png');
     padding-top: 20px;
-    padding-bottom: 20px;
+    background-size: 1600px;
 }
 
 #textoseccion{
