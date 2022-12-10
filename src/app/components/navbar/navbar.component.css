@@ -1,14 +1,14 @@
 #navbar{
     background-color: #005da3;
     color:white;
-    width: 1920px;
 }
 #listas{
-    margin-left: 20%;
+    margin-left: 6%;
 }
 
 #letras{
     color: white;
     font-size: larger;
-    margin: 20px;
+    margin-left: 45px;
+    text-align: center;
 }

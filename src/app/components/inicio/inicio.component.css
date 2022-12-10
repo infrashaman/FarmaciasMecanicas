@@ -10,7 +10,6 @@
     left: 15%;
     color: white;
     font-size: 2vw;
-    margin-top: 20px;
 }
 
 #separacion{
@@ -33,7 +32,7 @@
 }
 
 #fondos {
-    background-image: url('/assets/fondoservicios.jpg');
+    background-image: url('/assets/fondoservicios.png');
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -44,28 +43,36 @@
 }
 
 #textoseccion1{
+    padding-left: 140px;
+    padding-top: 8px;
     color: white;
-    padding-left: 230px;
-    font-size: xx-large;
+    font-size: 31px;
     margin-bottom: 0px;
     padding-bottom: 0px;
     font-size: 2vw;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Michroma', sans-serif;
 }
 #textoseccion2{
-    padding-left: 230px;
-    font-size: xx-small;
+    padding-top: 10px;
+    padding-left: 140px;
     color: white;
-    font-size: 2vw;
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.21;
+    margin-top: 10px;
 }
 
 #txtver1{
-    font-size: 65px;
-    margin-top: 20px;
-    font-family: 'Michroma', sans-serif;
+    font-size: 79px;
+    margin-top: 70px;
+    margin-left: -30px;
+    font-family: 'Michroma', sa5ns-serif;
+    font-size: 5vw;
 }
 
 #txtver2{
     font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+    line-height: 1.222;
+    font-size: 27px;
 }
