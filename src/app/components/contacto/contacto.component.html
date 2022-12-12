@@ -1,30 +1,28 @@
-<footer class="container-full" style="background-image: url('/assets/fondocontacto.png'); background-position: center center; background-attachment: fixed; background-size: cover;">
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>  
+<footer class="container-full" style="background-image: url('/assets/fondocontacto.png'); background-position: center center; background-size: 100%; height: 600px; background-repeat: no-repeat;">
   <div class="row" style="padding: 20px;"> 
       <div class="col-lg-8">
       <form [formGroup]="datos">
-        <div class="row">
+        <div class="row" style="padding-top: 80px;">
           <div class="col-lg-4">
-            <h4 style="color: white; font-family: 'Orbitron', sans-serif;">ENVIENOS SU SOLICITUD</h4>
-            <input type="text" class="form-control" placeholder="INGRESA TU NOMBRE O EMPRESA" name="nomempresa" style="margin: 10px;">
-            <input type="email" placeholder="Correo" class="form-control" name="correo" style="margin: 10px;">
-            <input type="text" placeholder="Numero" style="margin: 10px;" class="form-control" name="numero">
-            <textarea class="form-control" placeholder="Mensaje" cols="40" rows="4" name="mensaje" style="margin: 10px;"></textarea>
-            <button class="btn btn-primary btn-position-right" (click)="enviocorreo()">enviar</button>
+            <h4 style="color: white; font-family: 'Roboto', sans-serif; font-size: 40px; width: 600px; padding-left: 10px; padding-bottom: 30px; margin-top: -50px;">ENVÍENOS SU SOLICITUD</h4>
+            <input type="text" class="form-control" placeholder="Ingresa tu nombre o empresa" name="nomempresa" style="margin: 10px; width: 460px; height: 57px;">
+            <input type="email" placeholder="Correo" class="form-control" name="correo" style="margin: 10px; width: 460px; height: 57px;">
+            <input type="text" placeholder="Numero" style="margin: 10px; width: 460px; height: 57px;" class="form-control" name="numero">
+            <textarea class="form-control" placeholder="Mensaje" cols="40" rows="4" name="mensaje" style="margin: 10px; width: 460px; height: 100px;"></textarea>
+            <button class="btn btn-primary btn-lg" style="margin-left: 380px;" (click)="enviocorreo()">ENVIAR</button>
           </div>
         </div>
       </form>
     </div>
     <div class="col-lg-4" style="color: white; font-family: 'Roboto', sans-serif;">
-      <h1>Ubicacion</h1>
-      <h3>chañarcillo #1120<br>Maipu. Santiago</h3>
-      <h1>Contacto</h1>
-      <h3>+569 5209 2557<br>+569 2374 8961</h3>
-      <h3>contacto@fmecanicas.cl</h3>
+      <h1 style="padding-top: 30px; font-family: 'Roboto', sans-serif;">UBICACIÓN</h1>
+      <h3 style="font-size: 20px; font-family: 'Roboto', sans-serif;">Chañarcillo #1120<br>Maipu. Santiago</h3>
+      <br>
+      <br>
+      <h1 style="font-family: 'Roboto', sans-serif;">CONTACTO</h1>
+      <h3 style="font-family: 'Roboto', sans-serif; font-size: 20px;"><img src="/assets/icono2.png" style="width: 20px;" > +569 5209 2557</h3>
+      <h3 style="font-family: 'Roboto', sans-serif; font-size: 20px;"><img src="/assets/icono2.png" style="width: 20px;" > +569 2374 8961</h3>
+      <h3 style="font-family: 'Roboto', sans-serif; font-size: 20px;"><img src="/assets/icono1.png" style="width: 30px;"> contacto@fmecanicas.cl</h3>
     </div>
   </div>
   </footer>
