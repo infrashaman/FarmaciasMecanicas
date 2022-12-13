@@ -1,18 +1,18 @@
 <footer class="container-full" style="background-image: url('/assets/fondocontacto.png'); background-position: center center; background-size: 100%; height: 600px; background-repeat: no-repeat;">
   <div class="row" style="padding: 20px;"> 
       <div class="col-lg-8">
-      <form [formGroup]="datos">
         <div class="row" style="padding-top: 80px;">
           <div class="col-lg-4">
+            <form [formGroup]="datos" (ngSubmit)="onSubmit()">
             <h4 style="color: white; font-family: 'Roboto', sans-serif; font-size: 40px; width: 600px; padding-left: 10px; padding-bottom: 30px; margin-top: -50px;">ENVÍENOS SU SOLICITUD</h4>
-            <input type="text" class="form-control" placeholder="Ingresa tu nombre o empresa" name="nomempresa" style="margin: 10px; width: 460px; height: 57px;">
-            <input type="email" placeholder="Correo" class="form-control" name="correo" style="margin: 10px; width: 460px; height: 57px;">
-            <input type="text" placeholder="Numero" style="margin: 10px; width: 460px; height: 57px;" class="form-control" name="numero">
-            <textarea class="form-control" placeholder="Mensaje" cols="40" rows="4" name="mensaje" style="margin: 10px; width: 460px; height: 100px;"></textarea>
-            <button class="btn btn-primary btn-lg" style="margin-left: 380px;" (click)="enviocorreo()">ENVIAR</button>
+            <input type="text" class="form-control" placeholder="Ingresa tu nombre o empresa" style="margin: 10px; width: 460px; height: 57px;" formControlName="nomempresa">
+            <input type="text" placeholder="Correo" class="form-control" style="margin: 10px; width: 460px; height: 57px;" formControlName="correo">
+            <input type="text" placeholder="Numero" style="margin: 10px; width: 460px; height: 57px;" class="form-control" formControlName="numero">
+            <input type="text" class="form-control" placeholder="Mensaje" cols="40" rows="4" style="margin: 10px; width: 460px; height: 100px;" formControlName="mensaje">
+            <button class="btn btn-primary btn-lg" type="submit" style="margin-left: 380px;">ENVIAR</button>
+          </form>
           </div>
         </div>
-      </form>
     </div>
     <div class="col-lg-4" style="color: white; font-family: 'Roboto', sans-serif;">
       <h1 style="padding-top: 30px; font-family: 'Roboto', sans-serif;">UBICACIÓN</h1>
